@@ -15,7 +15,7 @@ void print_number(unsigned int n)
 }
 /**
  * print_number_in -Print Number Putchar
-
+ * @n:Integer
  * Return: void
  */
 void print_number_in(int n)
