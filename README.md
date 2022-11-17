@@ -169,5 +169,7 @@ Project Done in 15 Day
 
 Read More Here
 
+Note this readme has full information to show what the project is for and as well as how to navigate
+
 Authors
 Adekunle Adeleke && Akindele Oyindamola
