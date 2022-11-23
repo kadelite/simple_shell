@@ -1,46 +1,57 @@
-Simple Shell
-Introduction
-This repository is a Holberton School Project. The school project consisted in writing a shell like sh (Bourne Shell) by Stephen Bourne , in C, using a limited number of standard library functions, So Instead we used ower own function that we rewrited over the past three month Here
+# Simple Shell
+
+## Introduction
+This repository is a Holberton School Project. 
+The school project consisted in writing a shell like sh (Bourne Shell) by Stephen Bourne , in C, using a limited number of standard library functions,
+So Instead we used ower own function that we rewrited over the past three month Here
 
 The goal in this project was to make us understand how a shell works. To single out some items: what is the environment, the difference between functions and system calls, how to create processes using execve...
 
-Usage
+## Usage
 In order to run this program,
+1. Clone This Repo
 
-Clone This Repo
+2. git clone https://github.com/Theemiss/simple_shell
 
-git clone https://github.com/Theemiss/simple_shell
+3. compile it with `gcc` 4.8.4 `-Wall -Werror -Wextra -pedantic` *.c -o hsh.
 
-compile it with
+4. You can then run it by invoking ./hsh in that same directory.
 
-gcc 4.8.4 -Wall -Werror -Wextra -pedantic *.c -o hsh.
-You can then run it by invoking ./hsh in that same directory.
+## How to use it
 
-How to use it
-In order to use this shell, in a terminal, first run the program:
+> In order to use this shell, in a terminal, first run the program:
 prompt$ ./hsh
-It wil then display a simple prompt and wait for commands.
+> It wil then display a simple prompt and wait for commands.
 $
-A command will be of the type $ command
-This shell can handle two types of commands: builtins and normal program.
+> A command will be of the type $ command
+> This shell can handle two types of commands: builtins and normal program.
 
-List of built-ins
+## List of built-ins
+
 Currently the list of built-ins I wrote is:
 
+```
 cd [directory]
 Switch to the specified directory (path).
+
 env
 Displays the environment variable
+
 exit [exitstatus]
 Exit from the program with exitstatus value. 0 by default.
+
 getenv NAME
 Return the value of the NAME variable if it is in the environment
+
 help [command]
 Displays the syntax for the command, or all commands.
+
 history
 Displays the last typed user .
+
 echo [$$] or [$?] or [$PATH] Return pid and exit statue and PATH.
-Command
+
+## Command
 Basicly Every Program in $PATH It Support Single Word like ls
 
 It Handle Path ls /tmp
@@ -156,7 +167,7 @@ _strcpy
 _strchr
 _strncmp
 _strdup
-_memcpy
+`_memcpy`
 _calloc
 _realloc
 _getenv
@@ -173,3 +184,5 @@ Note this readme has full information to show what the project is for and as wel
 
 Authors
 Adekunle Adeleke && Akindele Oyindamola
+
+:+1: :sparkles: :camel: :tada: :rocket: :metal: :octocat:
