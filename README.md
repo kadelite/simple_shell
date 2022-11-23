@@ -123,6 +123,7 @@ Handle The Argument file like ./hsh test Where test is a file filled with comman
 List of functions and system calls we could use
 List of allowed functions and system calls
 
+```c
 access (man 2 access)
 chdir (man 2 chdir)
 close (man 2 close)
@@ -173,14 +174,7 @@ _realloc
 _getenv
 _getline
 _strtok
-For More Info About It Check The Man Page by
-
-Username@your-regular-prompt:~$ man ./man_1_simple_shell
-Project Done in 15 Day
-
-Read More Here
-
-Note this readme has full information to show what the project is for and as well as how to navigate
+```
 
 Authors
 Adekunle Adeleke && Akindele Oyindamola
