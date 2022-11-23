@@ -1,7 +1,7 @@
 # Simple Shell
 
 ## Introduction
-This repository is a Holberton School Project. 
+This repository is a `Holberton School Project`. 
 The school project consisted in writing a shell like sh (Bourne Shell) by Stephen Bourne , in C, using a limited number of standard library functions,
 So Instead we used ower own function that we rewrited over the past three month Here
 
@@ -9,9 +9,9 @@ The goal in this project was to make us understand how a shell works. To single 
 
 ## Usage
 In order to run this program,
-1. Clone This Repo
+1. Clone This `Repo`
 
-2. git clone https://github.com/Theemiss/simple_shell
+2. git clone `https://github.com/Theemiss/simple_shell`
 
 3. compile it with `gcc` 4.8.4 `-Wall -Werror -Wextra -pedantic` *.c -o hsh.
 
@@ -19,18 +19,18 @@ In order to run this program,
 
 ## How to use it
 
-> In order to use this shell, in a terminal, first run the program:
+* In order to use this shell, in a terminal, first run the program:
 prompt$ ./hsh
-> It wil then display a simple prompt and wait for commands.
-$
-> A command will be of the type $ command
-> This shell can handle two types of commands: builtins and normal program.
+* It wil then display a simple prompt and wait for commands.
+`$`
+* A command will be of the type $ command
+* This shell can handle two types of commands: builtins and normal program.
 
 ## List of built-ins
 
 Currently the list of built-ins I wrote is:
 
-```
+```C
 cd [directory]
 Switch to the specified directory (path).
 
@@ -50,6 +50,7 @@ history
 Displays the last typed user .
 
 echo [$$] or [$?] or [$PATH] Return pid and exit statue and PATH.
+```
 
 ## Command
 Basicly Every Program in $PATH It Support Single Word like ls
