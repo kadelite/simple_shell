@@ -65,53 +65,6 @@ it Handle Command Path Also Like /bin/ls And All The Option And Path Like /bin/l
 
 it Handle Comments #
 
-Examples Command
-Example 1
-
-Username@your-regular-prompt:~$ ./hsh
-$ pwd
-/home/username/
-$ ^D
-Username@your-regular-prompt:~$
-Example 2
-
-Username@your-regular-prompt:~$ ./hsh
-$ ls -l /tmp 
--rw------- 1 username username    0 Dec  5 12:09 config-err-aAMZrR
-drwx------ 3 root   root   4096 Dec  5 12:09 systemd-private-062a0eca7f2a44349733e78cb4abdff4-colord.service-V7DUzr
-drwx------ 3 root   root   4096 Dec  5 12:09 systemd-private-062a0eca7f2a44349733e78cb4abdff4-rtkit-daemon.service-ANGvoV
-drwx------ 3 root   root   4096 Dec  5 12:07 systemd-private-062a0eca7f2a44349733e78cb4abdff4-systemd-timesyncd.service-CdXUtH
--rw-rw-r-- 1 username username    0 Dec  5 12:09 unity_support_test.0
-$ ^D
-Username@your-regular-prompt:~$
-Exmples Builtin
-case env and exit
-
-Username@your-regular-prompt:~$ ./hsh
-USER=julien
-LANGUAGE=en_US
-SESSION=ubuntu
-COMPIZ_CONFIG_PROFILE=ubuntu
-SHLVL=1
-HOME=/home/julien
-C_IS=Fun_:)
-DESKTOP_SESSION=ubuntu
-LOGNAME=julien
-TERM=xterm-256color
-PATH=/home/julien/bin:/home/julien/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-DISPLAY=:0
-$ exit
-Username@your-regular-prompt:~$ 
-
-Case Exit Statue
-
-Username@your-regular-prompt:~$ ./hsh
-$ exit 98
-Username@your-regular-prompt:~$ echo $?
-98
-Username@your-regular-prompt:~$
-
-Keep Exploring The echo Builtin and history ... Using The Help Builtin
 
 Also
 Handle Ctrl+C: your shell should not quit when the user inputs ^C
